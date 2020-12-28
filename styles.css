@@ -94,6 +94,122 @@ header .content nav a:first-child {
     margin-top: 32px;
 }
 
+main {
+    background-color: hsl(218, 28%, 13%);
+}
+
+section.pros {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 60px;
+}
+
+section.pros .pro {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section.pros .pro img {
+    height: 70px;
+}
+
+section.pros .pro h4 {
+    font-size: 20px;
+    margin: 20px 0 16px;
+}
+
+section.pros .pro p {
+    max-width: 60%;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+section.productive {
+    display: flex;
+    margin: 120px 0;
+    align-items: center;
+}
+
+section.productive >div {
+    padding-left: 40px;
+}
+
+section.productive >div h2 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+section.productive >div span {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    height: 20px;
+    color: hsl(176, 68%, 64%);
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+
+section.productive >div span img {
+    margin-left: 8px;
+}
+
+section.testimonials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    column-gap: 40px;
+    position: relative;
+}
+
+section.testimonials .testimonial-card {
+    background-color: hsl(219, 30%, 18%);
+    padding: 40px 20px 20px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 2;
+}
+
+section.testimonials .testimonial-card >p {
+    line-height: 22px;
+}
+
+section.testimonials .testimonial-card .sign {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+section.testimonials .testimonial-card .sign img {
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+section.testimonials .testimonial-card .sign >div {
+    font-size: 13px;
+}
+
+section.testimonials .testimonial-card .sign >div p:first-child {
+    font-weight: 700;
+}
+
+section.testimonials .testimonial-card .sign >div p:last-child {
+    opacity: 0.8;
+}
+
+section.testimonials .quotes {
+    position: absolute;
+    z-index: 1;
+    top: -35px;
+    left: -10px;
+}
+
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
