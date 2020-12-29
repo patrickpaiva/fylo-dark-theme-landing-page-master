@@ -2,6 +2,15 @@
 
 ![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)
 
+## Patrick´s Notes :v:
+
+Hi! I just finished this challenge and you can access it live using the address:
+https://fylo-dark-theme-landing-page-master-delta.vercel.app
+
+Thanks for visiting! Below you can read Frontend Mentor's instructions.
+
+Bye!
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
