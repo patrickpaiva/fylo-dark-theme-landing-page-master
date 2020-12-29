@@ -441,6 +441,11 @@ footer .footer-attribution .attribution a:hover {
         margin-left: 20px;
     }
 
+    .hero {
+        background-image: url('/images/bg-curvy-mobile.svg');
+        padding-bottom: 0;
+    }
+
     .hero .content h1 {
         font-size: 28px;
     }
@@ -451,6 +456,10 @@ footer .footer-attribution .attribution a:hover {
 
     .hero .content img {
         max-width: 90vw;
+    }
+
+    section.pros {
+        margin-top: 160px;
     }
 
     section.pros .pro {
