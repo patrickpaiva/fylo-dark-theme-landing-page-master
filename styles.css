@@ -147,6 +147,7 @@ section.productive >div {
 }
 
 section.productive >div h2 {
+    max-width: 350px;
     font-size: 32px;
     line-height: 36px;
     margin-bottom: 20px;
@@ -404,4 +405,141 @@ footer .footer-attribution .attribution a {
 
 footer .footer-attribution .attribution a:hover {
     opacity: 0.7;
+}
+
+@media (max-width: 1024px) {
+    section.productive {
+        flex-direction: column;
+    }
+
+    section.productive img {
+        max-width: 85vw;
+    }
+    
+    section.productive >div {
+        margin-top: 60px;
+        padding-left: 0;
+    }
+
+    
+    section.productive >div h2 {
+        max-width: 100%;
+        font-size: 26px;
+    }
+
+    .early-access h3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    header .content img {
+        max-width: 120px;
+    }
+
+    header .content nav a {
+        margin-left: 20px;
+    }
+
+    .hero .content h1 {
+        font-size: 28px;
+    }
+
+    .hero .content p {
+        font-size: 14px;
+    }
+
+    .hero .content img {
+        max-width: 90vw;
+    }
+
+    section.pros .pro {
+        width: auto;
+    }
+
+    section.productive >div h2 {
+        font-size: 22px;
+    }
+
+    section.testimonials {
+        max-width: 350px;
+        margin: 0 auto;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .early-access >div {
+        width: 80vw;
+        flex-direction: column;
+    }
+
+    .early-access h3 {
+        font-size: 22px;
+    }
+
+    .early-access >div input {
+        margin-right: 0;
+        margin-bottom: 20px;
+        max-width: 420px;
+        width: 100%;
+    }
+
+    .early-access button {
+        max-width: 420px;
+        width: 100%;
+    }
+
+    footer .footer-logo {
+        padding-left: 40px;
+    }
+
+    footer .footer-content {
+        flex-direction: column;
+        padding: 20px 40px;
+    }
+
+    footer .footer-content .footer-address {
+        margin-bottom: 20px;
+    }
+
+    footer .footer-content .footer-contact {
+        margin-bottom: 40px;
+    }
+
+    footer nav {
+        grid-template-columns: max-content;
+    }
+
+    footer nav span:nth-child(1) {
+        order: 1;
+    }
+
+    footer nav span:nth-child(2) {
+        order: 5;
+        margin-top: 40px;
+    }
+
+    footer nav span:nth-child(3) {
+        order: 2;
+    }
+
+    footer nav span:nth-child(4) {
+        order: 6;
+    }
+
+    footer nav span:nth-child(5) {
+        order: 3;
+    }
+
+    footer nav span:nth-child(6) {
+        order: 7;
+    }
+
+    footer nav span:nth-child(7) {
+        order: 4;
+    }
+
+    footer .footer-content .social-midia {
+        align-self: center;
+    }
 }
