@@ -139,7 +139,7 @@ section.productive >div {
 }
 
 section.productive >div h2 {
-    font-size: 28px;
+    font-size: 32px;
     line-height: 36px;
     margin-bottom: 20px;
 }
@@ -164,6 +164,7 @@ section.testimonials {
     flex-wrap: nowrap;
     column-gap: 40px;
     position: relative;
+    margin-bottom: 100px;
 }
 
 section.testimonials .testimonial-card {
@@ -209,12 +210,182 @@ section.testimonials .quotes {
     left: -10px;
 }
 
+.early-access {
+    display: flex;
+    max-width: 800px;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 28%, 15%);
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
+    position: relative;
+    z-index: 3;
+    transform: translateY(80px) ;
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+.early-access h3 {
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.early-access p {
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 24px;
+}
+
+.early-access >div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.early-access >div input {
+    width: 400px;
+    padding: 16px 30px;
+    border: 0;
+    border-radius: 30px;
+    margin-right: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.early-access >div ::placeholder {
+    color:rgba(0, 0, 0, 0.2);
+}
+
+.early-access button {
+    padding: 16px 30px;
+    border: 0;
+    border-radius: 30px;
+    background: linear-gradient(45deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.4);
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    max-width: max-content;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.4s;
+}
+
+.early-access button:hover {
+    opacity: 0.7;
+}
+
+footer {
+    width: 100vw;
+    background-color:hsl(216, 53%, 9%);
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    position: relative;
+    z-index: 2;
+}
+
+footer .footer-logo {
+    max-width: 1260px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+footer .footer-logo img {
+    max-width: 50%;
+}
+
+footer .footer-content {
+    max-width: 1260px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 80px;
+}
+
+footer .footer-content .footer-address {
+    max-width: 330px;
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    gap: 20px;
+}
+
+footer .footer-content .footer-address img:first-child {
+    margin-top: 4px;
+    align-self: flex-start;
+}
+
+footer .footer-content .footer-contact {
+    max-width: 330px;
+    height: max-content;
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer nav {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    column-gap: 100px;
+    row-gap: 16px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.4s;
+}
+
+footer nav a:hover {
+    color: hsl(176, 68%, 64%);
+}
+
+footer .footer-content .social-midia {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .footer-content .social-midia .midia {
+    margin-left: 16px;
+    border: 1px solid white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+}
+
+footer .footer-content .social-midia .midia i {
+    font-size: 16px;
+}
+
+footer .footer-content .social-midia .midia:hover {
+    color: hsl(176, 68%, 64%);
+    border-color: hsl(176, 68%, 64%);
+}
+
+footer .footer-attribution .attribution { 
+    font-size: 11px; 
+    text-align: center;
+    color: white; 
+}
+
+footer .footer-attribution .attribution a { 
+    color: hsl(176, 68%, 64%);
+    text-decoration: none; 
+}
+
+footer .footer-attribution .attribution a:hover {
+    opacity: 0.7;
 }
